@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="stylesheet" href="style/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <main class="container">
+        <form action="" method="post">
+            <h1>Login</h1>
+            <div class="box">
+                <input type="email" name="email" id="iemail" required placeholder="E-mail" maxlength="40" autocomplete="email">
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="box">
+                <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="15" autocomplete="current-password">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember">
+                <label for="icheckbox"><input type="checkbox" name="checkbox" id="icheckbox">Lembrar senha</label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <div class="botao">
+                <button>Login</button>
+            </div>
+            <div class="register">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
